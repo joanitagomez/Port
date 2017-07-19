@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    position: relative;
+    overflow: scroll;
+}
+
+.heading-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 900;
+    color: #091A26;
+}
+
+.title-container {
+    padding-top: 60px;
+    padding-left: 190px;
+}
+
+.description-font {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    line-height: 47px;
+    padding: 100px 40px 40px 40px;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    padding: 40px;
+    color: #627077;
+    cursor: pointer;
+}
+
+.hello {
+    position: absolute;
+    font-size: 450px;
+    font-weight: 900;
+    top: 80px;
+    letter-spacing: 10px;
+    left: 80px;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.02;
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 20px 0 40px 180px;
+}
+
+.row.work-container {
+    position: relative;
+    background-color: #091A26;
+    display: block;
+}
+
+.mywork {
+    font-size: 120px;
+    padding: 80px 60px 60px 60px;
+    color: white;
+    opacity: 0.2;
+}
+
+.number {
+    position: absolute;
+    font-size: 250px;
+    font-weight: 900;
+    color: #627077;
+    opacity: 0.14;
+}
+
+.one {
+    top: 250px;
+    left: 200px;
+}
+
+.work02 {
+    position: relative;
+}
+
+.two {
+    top: 0px;
+    left: 190px;
+}
+
+.work-title {
+    position: relative;
+    padding-top: 100px;
+    font-weight: 700;
+    color: #627077;
+    font-size: 30px;
+}
+
+.work-title.work-place {
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+.work-description {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 41px;
+    letter-spacing: 1px;
+    color: #627077;
+    padding-top: 70px;
+}
+
+.footer {
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.contact {
+    padding: 60px 0 0 60px;
+    color: #627077;
+    opacity: 0.4;
+}
+
+.contact-description {
+    text-align: center;
+    font-size: 20px;
+    color: #627077;
+    padding: 120px 90px 90px 120px;
+    line-height: 32px;
+}
+
+.name-email {
+    color: #627077;
+    padding-left: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+#contact-info {
+    padding: 90px;
+}
+
+input[type=text], textarea {
+    border: 1px solid #091A26;
+    border-radius: 5px;
+    color: #627077;
+    width: 80%;
+    padding: 10px;
+    margin: 7px;
+    height: 48px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 250px;
+}
+
+#resume-button {
+    width: 188px;
+    height: 70px;
+    border-radius: 20%;
+    background-color: #EE455A;
+}
+
+input[type=submit] {
+    margin-left: 50%;
+    margin-top: 10px;
+    border: 0 none;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #EE455A;
+    width: 30%;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.page-footer-container {
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091A26;
+}
+
+.made-by {
+    font-weight: 100;
+    color: #EE455A;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
