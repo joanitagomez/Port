@@ -173,7 +173,7 @@ li a {
   font-size: 58px;
   color: #091A26;
   padding: 100px 180px 0px 180px;
-  line-height: 61px;
+  line-height: 62px;
   font-weight: 600;
 }
 
@@ -182,52 +182,45 @@ li a {
   justify-content: center;
 }
 
+
+/*
 .links a {
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
   padding: 80px 20px;
   color: #EE455A;
   text-decoration: none;
-}
+} */
 
-.resume-button {
-  color: white;
-  width: 9%;
-  height: 50px;
-  background-color: #EE455A;
+.button {
+  margin: 80px 20px;
+  width: 9vw;
+  height: 5vh;
   border-radius: 90px;
-  margin: auto;
   text-align: center;
-  line-height: 50px;
+  line-height: 5vh;
   font-size: 16px;
   font-weight: 100;
   cursor: pointer;
-  transition: background-color 0.3s ease-out;
-}
-
-.resume-button:hover {
   background-color: white;
   border: 1px solid #EE455A;
   color: #EE455A;
+  transition: background-color 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: #EE455A;
+  color: white;
 }
 
 .page-footer-container {
   display: flex;
   justify-content: space-between;
   color: #627077;
-  font-size: 20px;
+  font-size: 12px;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 20px;
   letter-spacing: 1px;
-}
-
-.made-by {
-  font-weight: 100;
-  font-size: 12px;
-}
-
-.name, .email {
-  font-size: 15px;
 }
 
 .row {
