@@ -2,20 +2,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joanitha C Gomez</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:300,400,600,700,800,900" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/page-style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="js/test.js"></script>
+  <script type="text/javascript" src="js/page.js"></script>
 </head>
 
 <body>
   <div class="container">
 
     <div class="navigation">
-
       <svg width="48px" height="25px" viewBox="0 0 48 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
           <desc>Created with Sketch.</desc>
@@ -28,16 +26,18 @@
                   </g>
               </g>
       </svg>
+
+
     </div>
 
 
     <div class="menu-overlay">
-      <ul class="menu-items">
-        <li>home</li>
-        <li>work</li>
-        <li>contact</li>
-        <li>résumé</li>
-      </ul>
+      <div class="menu-items">
+        <li class="home"><a href="#">home</a></li>
+        <li class="work"><a href="#">work</a></li>
+        <li class="say-hello"><a href="#">contact</a></li>
+        <li class="resume-page"><a href="#">résumé</a></li>
+      </div>
     </div>
 
 
@@ -105,7 +105,6 @@
             </div>
           </div>
 
-
           <div class="row work03">
 
             <div class="number three heading-font">03</div>
@@ -138,8 +137,8 @@
           <div class="row description">
             <div class="col-3"></div>
             <div class="col-9">
-              <p class="work-description"> Collaborated with a team of 3 to design and implement Mancala board game in Java Swing. <br>
-                Focused on the model component of Model-View-Controller pattern.
+              <p class="work-description"> Collaborated with a team of 3 to design and<br> implement Mancala board game in Java Swing.<br>
+                I focused on the model component of Model-<br>View-Controller pattern.
               </p>
               <p class="footer work-description">Used: Model-View-Controller pattern,<br> GUI programming skills and Java</p>
             </div>
@@ -163,13 +162,16 @@
           <a href="#" class="linkedin">linkedin</a>
           <a href="#" class="instagram">instagram</a>
         </div>
-    </div>
+
+        <div class="resume-button heading-font">résumé</div>
+
 
       <div class="page-footer-container">
         <h4 class="name">JOANITHA C GOMEZ</h4>
         <h4 class="made-by">made by joanitha.</h4>
         <h4 class="email">joanitha.gomez@sjsu.edu</h4>
       </div>
+    </div>
 
   </div>
 </body>

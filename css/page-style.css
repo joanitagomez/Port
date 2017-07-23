@@ -31,43 +31,6 @@
   line-height: 47px;
 }
 
-.navigation {
-  position: fixed;
-  z-index: 2;
-  right: 0;
-  padding: 40px;
-  color: #627077;
-  cursor: pointer;
-}
-
-.menu-overlay {
-  position: fixed;
-  z-index: 1;
-  display: none;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
-}
-
-.menu-overlay.open {
-  display: block;
-}
-
-.menu-items {
-  padding: 20%;
-}
-
-.menu-items li {
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-  color: white;
-  font-size: 28px;
-  cursor: pointer;
-  padding: 2%;
-  text-align: center;
-}
-
 .hello {
   position: absolute;
   font-size: 450px;
@@ -86,6 +49,46 @@
   width: 400px;
   height: 400px;
   margin: 20px 0 15px 180px;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  padding: 40px;
+  color: #627077;
+  cursor: pointer;
+}
+
+.menu-overlay {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: none;
+  margin: auto;
+  background-color: rgb(238, 69, 90);
+}
+
+.menu-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-overlay li {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  font-size: 28px;
+  padding: 12%;
 }
 
 .row.work-container {
@@ -138,11 +141,11 @@
 }
 
 .work-description {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
-  line-height: 41px;
-  letter-spacing: 1px;
+  line-height: 39px;
+  letter-spacing: 0.7px;
   color: #627077;
   padding-top: 70px;
 }
@@ -174,13 +177,6 @@
   font-weight: 600;
 }
 
-#resume-button {
-  width: 188px;
-  height: 70px;
-  border-radius: 20%;
-  background-color: #EE455A;
-}
-
 .links {
   display: flex;
   justify-content: center;
@@ -190,8 +186,29 @@
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
   padding: 80px 20px;
-  color: #627077;
+  color: #EE455A;
   text-decoration: none;
+}
+
+.resume-button {
+  color: white;
+  width: 9%;
+  height: 50px;
+  background-color: #EE455A;
+  border-radius: 90px;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+
+.resume-button:hover {
+  background-color: white;
+  border: 1px solid #EE455A;
+  color: #EE455A;
 }
 
 .page-footer-container {
@@ -200,7 +217,7 @@
   color: #627077;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 20px;
+  padding: 10px 20px;
   letter-spacing: 1px;
 }
 
@@ -334,4 +351,7 @@
   br {
     display: none;
   }
+}
+
+
 }
