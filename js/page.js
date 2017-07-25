@@ -25,9 +25,11 @@ $(document).ready(function() {
 
   $('.work').on("click", function() {
     closeNavbar();
+
     $('html, body').animate({
       scrollTop: $(".work-container").offset().top
     }, 1000);
+
   });
   $('.say-hello').on("click", function() {
     closeNavbar();

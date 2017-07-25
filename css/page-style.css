@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
 }
@@ -46,8 +52,8 @@
 
 .headshot {
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 50%;
+  overflow: auto;
   margin: 20px 0 15px 180px;
 }
 
@@ -205,12 +211,18 @@ li a {
   background-color: white;
   border: 1px solid #EE455A;
   color: #EE455A;
-  transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-in-out;
+  user-select: none;
 }
 
 .button:hover {
   background-color: #EE455A;
   color: white;
+}
+
+.button:active {
+  background-color: white;
+  color: #EE455A;
 }
 
 .page-footer-container {
@@ -276,7 +288,7 @@ li a {
   width: 100%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   body {
     width: 100%;
   }

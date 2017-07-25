@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 5vh;
+  width: 100%;
+  border: 2px solid blue;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.resume-heading {
+  font-size: 45px;
+  font-weight: 700;
+  color: #091A26;
+  padding-left: 40px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.resume-headshot {
+  width: 40%;
+}
+
+.section-heading {
+  float: right;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #091A26;
+  font-weight: 600;
+}
+
+.section-content-container {
+  padding: 40px;
+}
+
+.experience-content-container {
+  display: block;
+  border: 2px solid red;
+}
+
+.job-heading {
+  font-family: 'Lato', sans-serif;
+  color: #627077;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 26px;
+  letter-spacing: 0.66px;
+}
+
+.section-text {
+  color: #627077;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.66px;
+  padding-left: 40px;
+}
+
+.section-text a {
+  padding: 0;
+}
+
+.section-subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #091A26;
+}
+
+.row {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
