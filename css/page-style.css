@@ -5,7 +5,6 @@
 }
 
 .index-container {
-  background-color: white;
   margin-bottom: 200px;
   max-width: 100%;
   overflow: hidden;
@@ -13,23 +12,26 @@
 }
 
 .heading-font {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .description-font {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 27px;
   line-height: 47px;
 }
 
 .home-page {
+  border-top: 6px solid #2b2d5c;
+  background-color: white;
   min-height: 100%;
+  color: #2b2d5c;
 }
 
 .title {
   font-size: 100px;
   font-weight: 900;
-  color: #091A26;
+  color: #091a26;
 }
 
 .title-container {
@@ -43,13 +45,15 @@
 }
 
 .about-text {
-  color: #091A26;
+  font-weight: 300;
   padding: 110px 40px 40px 40px;
 }
 
-.about-text-container {}
+.about-text-container {
+}
 
-.img-container {}
+.img-container {
+}
 
 .headshot {
   display: flex;
@@ -109,20 +113,37 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.icons {
+  margin: 10%;
+  border-top: 1px solid white;
+}
+
+.icons > ul {
+}
+
+.icons > ul > a {
+  cursor: pointer;
+  padding: 20px;
+  float: left;
+}
+
+.menu-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .menu-overlay {
   position: fixed;
   right: 0;
   width: 0%;
   height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  padding-top: 5%;
   background-color: rgb(238, 69, 90);
 }
 
-.menu-overlay li {
-  font-family: 'Montserrat', sans-serif;
+.menu-overlay .menu-items li {
+  font-family: "Montserrat", sans-serif;
   list-style-type: none;
   font-size: 28px;
   padding: 12%;
@@ -135,7 +156,7 @@
   transform: translate(-50%, -50%);*/
 }
 
-.menu-overlay li a {
+.menu-overlay .menu-items li a {
   color: white;
   text-decoration: none;
   margin: 0px 30px;
@@ -149,7 +170,7 @@
   opacity: 0;
   width: 0%;
   height: 2px;
-  content: '';
+  content: "";
   background-color: white;
   transition: all 0.3s;
   left: 0px;
@@ -163,16 +184,18 @@
 
 .row.work-container {
   position: relative;
-  background-color: #091A26;
   display: block;
+  color: #736f66;
   display: -webkit-block;
+  background-color: white;
 }
 
 .mywork {
   font-size: 120px;
   padding: 80px 60px 60px 60px;
-  color: white;
-  opacity: 0.2;
+  color: #736f66;
+  /* color: rgba(255, 255, 255, 0.2); */
+  /*background-color: #E8ECF0;*/
 }
 
 .number {
@@ -188,11 +211,15 @@
   left: 200px;
 }
 
-.work02, .work03, .work04 {
+.work02,
+.work03,
+.work04 {
   position: relative;
 }
 
-.two, .three, .four {
+.two,
+.three,
+.four {
   top: 0px;
   left: 190px;
 }
@@ -201,7 +228,6 @@
   position: relative;
   padding-top: 100px;
   font-weight: 700;
-  color: #627077;
   font-size: 30px;
 }
 
@@ -212,17 +238,16 @@
 }
 
 .work-description {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 39px;
-  letter-spacing: 0.7px;
-  color: #627077;
+  letter-spacing: 1px;
   padding-top: 70px;
 }
 
 .footer {
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 40px;
   padding-bottom: 120px;
 }
@@ -230,19 +255,19 @@
 .contact-page {
   width: 100%;
   height: 100%;
+  background-color: white;
 }
 
 .contact {
   padding: 60px 0 0 60px;
-  color: #627077;
-  opacity: 0.5;
+  color: #011429;
   font-size: 150px;
 }
 
 .contact-description {
   text-align: center;
   font-size: 58px;
-  color: #091A26;
+  color: #011429;
   padding: 100px 180px 0px 180px;
   line-height: 62px;
   font-weight: 600;
@@ -255,10 +280,10 @@
   bottom: 0;
   color: #627077;
   font-size: 0.75em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 10px 20px;
   letter-spacing: 1px;
-  background-color: #091A26;
+  background-color: #011429;
 }
 
 .made-by-container {
@@ -285,15 +310,14 @@
   font-weight: 300;
   font-size: 18px;
   padding: 40px 20px;
-  font-family: 'Montserrat', sans-serif;
-  color: #EE455A;
+  font-family: "Montserrat", sans-serif;
+  color: #9aa5ed;
   text-decoration: none;
 }
 
 .links a:hover {
   font-weight: bold;
 }
-
 
 /*.links a {
   text-decoration: none;
@@ -324,21 +348,21 @@
   height: 80px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #EE455A;
+  background-color: #9aa5ed;
   fill: white;
   transition: background-color 0.3s ease-in-out;
   user-select: none;
 }
 
 .button:hover {
-  fill: #EE455A;
+  fill: #9aa5ed;
   background-color: white;
-  border: 1px solid #EE455A;
+  border: 1px solid #9aa5ed;
 }
 
 .button:active {
   background-color: white;
-  color: #EE455A;
+  color: #9aa5ed;
 }
 
 .row {
@@ -459,7 +483,7 @@
     justify-content: space-between;
   }
   .side-bar.on-blue {
-    background-color: #091A26;
+    background-color: #091a26;
     color: white;
   }
   .nav-icon {
@@ -479,7 +503,8 @@
     height: auto;
     padding: 20px;
   }
-  .title:nth-child(2), .title:nth-child(3) {
+  .title:nth-child(2),
+  .title:nth-child(3) {
     display: inline;
   }
   .about-text-container {
